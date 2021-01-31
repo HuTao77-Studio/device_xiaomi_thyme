@@ -504,6 +504,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi
 
+# Touchfeature
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.touchfeature@1.0.vendor
+
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
