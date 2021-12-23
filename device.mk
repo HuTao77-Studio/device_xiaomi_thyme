@@ -280,6 +280,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.ramdisk \
     init.mdm.sh \
+    init.mi.btmac.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
