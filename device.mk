@@ -141,24 +141,15 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usbv2.default \
-    libaacwrapper \
-    libaudiopreprocessing \
     libbatterylistener \
-    libbundlewrapper \
     libcomprcapture \
-    libdownmix \
-    libdynproc \
-    libeffectproxy \
     libhdmiedid \
     libhfp \
-    libldnhncr \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libreverbwrapper \
     libsndmonitor \
     libtinycompress \
-    libvisualizer \
     libvolumelistener
 
 PRODUCT_COPY_FILES += \
