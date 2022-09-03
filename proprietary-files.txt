@@ -649,7 +649,6 @@ vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_cmd_mode_dsc_dsi_panel.xml
 
 # Display Postprocessing
-vendor/bin/ppd
 vendor/lib64/libdpps.so
 
 # Display Postprocessing - from nio S1RTS32.41-20-16-1-3
