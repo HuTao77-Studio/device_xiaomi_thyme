@@ -252,8 +252,12 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor
 
 # Fingerprint
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.thyme
+    android.hardware.biometrics.fingerprint@2.3-service.thyme \
+    sensors.udfps
 
 # Gatekeeper
 PRODUCT_PACKAGES += \

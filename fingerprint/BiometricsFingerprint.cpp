@@ -135,6 +135,8 @@ BiometricsFingerprint::BiometricsFingerprint() : mClientCallback(nullptr), mDevi
             extCmd(COMMAND_NIT, readBool(fd) ? PARAM_NIT_FOD : PARAM_NIT_NONE);
             if (!fingerDown) {
                 set(DISPPARAM_PATH, DISPPARAM_FOD_HBM_OFF);
+                int arg[2] = {Touch_Fod_Enable, FOD_STATUS_OFF};
+                ioctl(touch_fd_.get(), TOUCH_IOC_SETMODE, &arg);
             }
         }
     }).detach();
