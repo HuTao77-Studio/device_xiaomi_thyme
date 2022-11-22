@@ -1093,4 +1093,42 @@
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Whether this device has a secondary light sensor -->
+    <bool name="config_devcieHasSecondaryLightSensor">true</bool>
+
+    <!-- The secondary sensor name. To find it, you can use "dumpsys sensorservice"
+         Remember to replace the space to "\u0020" in the name correctly otherwise the system can't find it
+         Eg. <string name="config_secondaryLightSensorName" translatable="false">tcs3408\u0020\u0020Non-wakeup</string>
+         ps. Light sensor is always Non-wakeup type, ref -> https://source.android.com/devices/sensors/suspend-mode -->
+    <string name="config_secondaryLightSensorName" translatable="false">tsl2540_rear\u0020\u0020Non-wakeup</string>
+
+    <!-- The secondary sensor type. To find it, you can use "dumpsys sensorservice"
+         Eg. <string name="config_secondaryLightSensorType" translatable="false">xiaomi.sensor.back_lux</string> -->
+    <string name="config_secondaryLightSensorType" translatable="false">xiaomi.sensor.back_lux</string>
+
+    <!-- The place of the secondary light sensor
+               * 0 -> MODE_ON_THE_BACK
+               * 1 -> MODE_FRONT             -->
+    <integer name="config_secondaryLightSensorPosition">0</integer>
+
+    <!-- Define how to use the secondary sensor data, Strategy map below
+         Strategy                                                Enabled     Value
+         Use Secondary As Primary [Will override primary one]    1/0         Int(Useless)
+         Use Secondary When Value [sec > primary]                1/0         Int(How many delta Lux)
+         Use Secondary When Value [sec < primary]                1/0         Int(How many delta Lux)
+         
+         You can set items like this
+         <string-array name="config_secondaryLightSensorStrategy" translatable="false">
+             <item>0,0</item>
+             <item>0,0</item>
+             <item>1,390</item>
+         </string-array>
+         That means using secondary when the primary value and the secondary value have a difference and
+         difference value > 390 and secondary value < primary values -->
+    <string-array name="config_secondaryLightSensorStrategy" translatable="false">
+        <item>0,0</item>
+        <item>0,0</item>
+        <item>1,10</item>
+    </string-array>
 </resources>
