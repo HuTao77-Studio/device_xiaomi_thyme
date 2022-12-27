@@ -16,8 +16,26 @@
 */
 -->
 <resources>
-    <!-- The padding on the top of the statusbar (usually 0). -->
-    <dimen name="status_bar_padding_top">8dp</dimen>
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">2dp</dimen>
+
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">2dp</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">9dp</dimen>
+
+    <!-- Distance from the top of screen in pixels, to position the power menu near the button. -->
+    <dimen name="global_actions_top_padding">130px</dimen>
+
+    <!-- Margin on the right side of the system icon group on Keyguard. -->
+    <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
+
+    <!-- Height of the status bar header bar when on Keyguard -->
+    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!--  Location on the screen of the center of the physical power button. This is a reasonable
     default that should be overridden by device-specific overlays.  -->
