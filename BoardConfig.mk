@@ -154,6 +154,12 @@ BOARD_USES_QCOM_HARDWARE := true
 # Power
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
+# Powershare
+SOONG_CONFIG_NAMESPACES += XIAOMI_POWERSHARE
+SOONG_CONFIG_XIAOMI_POWERSHARE := WIRELESS_TX_ENABLE_PATH
+SOONG_CONFIG_XIAOMI_TOUCH_WIRELESS_TX_ENABLE_PATH := \
+    "/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/wireless/reverse_chg_mode"
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_USES_RECOVERY_AS_BOOT := true
