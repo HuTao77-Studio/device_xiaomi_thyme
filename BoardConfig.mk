@@ -157,8 +157,8 @@ TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 # Powershare
 SOONG_CONFIG_NAMESPACES += XIAOMI_POWERSHARE
 SOONG_CONFIG_XIAOMI_POWERSHARE := WIRELESS_TX_ENABLE_PATH
-SOONG_CONFIG_XIAOMI_TOUCH_WIRELESS_TX_ENABLE_PATH := \
-    "/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/wireless/reverse_chg_mode"
+SOONG_CONFIG_XIAOMI_POWERSHARE_WIRELESS_TX_ENABLE_PATH := \
+    /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/wireless/reverse_chg_mode
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
@@ -188,7 +188,8 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 # Touch
 SOONG_CONFIG_NAMESPACES += XIAOMI_TOUCH
 SOONG_CONFIG_XIAOMI_TOUCH := HIGH_TOUCH_POLLING_PATH
-SOONG_CONFIG_XIAOMI_TOUCH_HIGH_TOUCH_POLLING_PATH := /sys/devices/virtual/touch/touch_dev/bump_sample_rate
+SOONG_CONFIG_XIAOMI_TOUCH_HIGH_TOUCH_POLLING_PATH := \
+    /sys/devices/virtual/touch/touch_dev/bump_sample_rate
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
