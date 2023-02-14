@@ -465,9 +465,6 @@ vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
-# MIUI Camrea - Patched
-lib64/libcameraservice.so|69639b4d2eaa00e27388221299322803a4bf3e5b
-
 # MIUI Camera
 -priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2
 lib/libcamera_algoup_jni.xiaomi.so
