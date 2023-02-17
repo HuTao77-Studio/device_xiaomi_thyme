@@ -1,2 +1,8 @@
-allow vendor_hal_perf_default hal_fingerprint_default:dir { search };
+r_dir_file(vendor_hal_perf_default, system_server)
+
 allow vendor_hal_perf_default hal_audio_default:dir { search };
+allow vendor_hal_perf_default hal_audio_default:file { read open };
+allow vendor_hal_perf_default hal_camera_default:dir { search };
+allow vendor_hal_perf_default hal_camera_default:file { read open };
+allow vendor_hal_perf_default hal_fingerprint_default:dir { search };
+allow vendor_hal_perf_default sysfs_msm_subsys:dir search;
