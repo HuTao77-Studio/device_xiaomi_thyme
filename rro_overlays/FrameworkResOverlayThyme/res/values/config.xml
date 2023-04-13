@@ -47,6 +47,9 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">17</integer>
 
+    <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
+    <bool name="config_dozePulsePickup">true</bool>
+
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
     <integer name="config_screenBrightnessSettingDefault">128</integer>
