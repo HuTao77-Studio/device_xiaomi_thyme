@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayThyme \
     FrameworkResOverlayThyme \
     SettingsOverlayThyme \
+    SettingsProviderOverlayRosemary \
     SystemUIOverlayThyme \
     TelephonyOverlayThyme
 
