@@ -21,3 +21,6 @@ vendor.xiaomi.hardware.campostproc::IMiPostProcService                          
 
 # MI Sys
 vendor.xiaomi.hardware.misys::IMiSys                                                 u:object_r:hal_misys_xiaomi_hwservice:s0
+
+# NFC
+vendor.nxp.nxpese::INxpEse                                                           u:object_r:hal_secure_element_hwservice:s0
