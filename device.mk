@@ -336,7 +336,8 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Keystore
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.1.vendor
+    android.hardware.keymaster@4.1.vendor \
+    android.system.keystore2
 
 # Media
 PRODUCT_PACKAGES += \
