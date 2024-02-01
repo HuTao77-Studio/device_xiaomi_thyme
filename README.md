@@ -1,30 +1,21 @@
-```
-#
-# Copyright (C) 2022 The KaleidoscopeOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
+#  Device Tree for Xiaomi Mi 10S (thyme)
 
-Device configuration for Xiaomi Mi 10S (thyme)
-=========================================
+## Spec Sheet
 
-The Xiaomi Mi 10S (codenamed _"thyme"_) is a flagship smartphone from Xiaomi.
+| Feature                 | Specification                                                                  |
+| :---------------------- | :----------------------------------------------------------------------------- |
+| CPU                     | Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)     |
+| Chipset                 | Qualcomm SM8250-AC Snapdragon 870 (7 nm)                                       |
+| GPU                     | Adreno 650                                                                     |
+| Memory                  | 8 GB / 12 GB                                                                   |
+| Shipped Software        | Android 11, MIUI 12                                                            |
+| Storage                 | 128 GB / 256 GB                                                                |
+| Battery                 | Li-Po 4780 mAh, non-removable                                                  |
+| Display                 | 2340 x 1080 pixels, 5.73 inches, 90Hz refresh rate, AMOLED HDR10+              |
+| Rear Camera             | 108MP(Primary sensor) 13MP(Ultra wide-angle) 2MP(Depth sensor) 2MP(Macro lens) |
+| Front Camera            | 20 MP                                                                          |
+| Release Date            | March 2021                                                                     |
 
-It was released in October 2021.
+## Device Picture
 
-## Device specifications
-
-Basic   | Spec Sheet
--------:|:-------------------------
-SoC     | Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)
-CPU     | Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)
-GPU     | Adreno 650
-Memory  | 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM
-Shipped Android Version | Android 11, MIUI 12
-Battery | Li-Po 4780 mAh, non-removable
-Display | AMOLED, 90Hz, HDR10+, 500 nits (typ), 1120 nits (peak)
-
-## Device picture
-
-![Xiaomi Mi 10S](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1615342326.05373482.jpg "Xiaomi Mi 10S")
+![Xiaomi Mi 10S](https://cdn.cnbj1.fds.api.mi-img.com/product-images/mi10s/specs-product.png "Xiaomi Mi 10S")
