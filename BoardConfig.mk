@@ -5,7 +5,6 @@
 #
 
 DEVICE_PATH := device/xiaomi/thyme
-THYME_PREBUILT := device/xiaomi/thyme-prebuilt
 
 # A/B
 AB_OTA_UPDATER := true

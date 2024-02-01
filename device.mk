@@ -17,8 +17,6 @@ $(call inherit-product, vendor/xiaomi/thyme/thyme-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-THYME_PREBUILT := device/xiaomi/thyme-prebuilt
-
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayThyme \
