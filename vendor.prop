@@ -229,6 +229,9 @@ telephony.lteOnCdmaDevice=1
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
+# Subsystem Restart
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # Time
 persist.timed.enable=true
 
