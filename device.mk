@@ -29,6 +29,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayThyme \
     FrameworkResOverlayThyme \
+    NetworkStackOverlayThyme \
     SettingsOverlayThyme \
     SettingsProviderOverlayRosemary \
     SystemUIOverlayThyme \
