@@ -96,6 +96,10 @@ on boot
     chmod 0660 /sys/touchpanel/double_tap
     chown system system /sys/touchpanel/double_tap
 
+    # VPP tuning
+    chown system system /mnt/vendor/persist/vpp/tunings.txt
+    chmod 0666 /mnt/vendor/persist/vpp/tunings.txt
+
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
 
