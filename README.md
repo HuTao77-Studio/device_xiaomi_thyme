@@ -18,4 +18,4 @@
 
 ## Device Picture
 
-![Xiaomi Mi 10S](https://cdn.cnbj1.fds.api.mi-img.com/product-images/mi10s/specs-product.png "Xiaomi Mi 10S")
+![Xiaomi Mi 10S](thyme-product.png "Xiaomi Mi 10S")
