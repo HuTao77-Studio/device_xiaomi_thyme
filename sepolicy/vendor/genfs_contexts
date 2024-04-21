@@ -28,7 +28,6 @@ genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify 
 # Touch
 genfscon sysfs /touchpanel                                                             u:object_r:sysfs_touchpanel:s0
 genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-3/3-0049                           u:object_r:vendor_sysfs_touch:s0
-genfscon sysfs /devices/virtual/touch/touch_dev/bump_sample_rate                       u:object_r:sysfs_touchpanel:s0
 
 # Wakeup source stats
 genfscon sysfs /devices/0306_02.01.00/wakeup                                                                                                u:object_r:sysfs_wakeup:s0
