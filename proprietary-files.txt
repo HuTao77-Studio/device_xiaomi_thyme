@@ -1,4 +1,4 @@
-# Unpinned blobs from thyme-user 13 TKQ1.220829.002 V14.0.6.0.TGACNXM release-keys
+# Unpinned blobs from thyme-user 13 RKQ1.211001.001 V816.0.2.0.TGACNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb

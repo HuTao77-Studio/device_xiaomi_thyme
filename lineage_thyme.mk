@@ -25,4 +25,4 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/thyme/thyme:13/RKQ1.211001.001/V14.0.6.0.TGACNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/thyme/thyme:13/RKQ1.211001.001/V816.0.2.0.TGACNXM:user/release-keys
