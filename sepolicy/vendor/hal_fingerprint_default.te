@@ -40,6 +40,7 @@ allow hal_fingerprint_default vendor_sysfs_spss:dir { search };
 allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 
 allow hal_fingerprint_default vendor_panel_prop:file {read open getattr map };
+dontaudit hal_fingerprint_default system_prop:file { getattr map open read };
 
 hal_client_domain(hal_fingerprint_default, vendor_hal_perf)
 binder_call(hal_fingerprint_default, vendor_hal_perf_default)

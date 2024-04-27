@@ -1,2 +1,7 @@
 set_prop(rild, deviceid_prop)
 allow rild vendor_diag_device:chr_file { open read write };
+dontaudit rild default_prop:file { getattr map open read };
+dontaudit rild {
+    exported_system_prop
+    vendor_default_prop
+}:property_service set;
