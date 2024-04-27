@@ -80,8 +80,8 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
-TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig vendor/xiaomi/sm8250-common.config vendor/xiaomi/thyme.config
+TARGET_KERNEL_SOURCE := kernel/xiaomi/thyme
+TARGET_KERNEL_CONFIG := thyme_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := kona

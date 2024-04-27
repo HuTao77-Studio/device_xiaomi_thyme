@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from thyme device
 $(call inherit-product, device/xiaomi/thyme/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Crdroid stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
