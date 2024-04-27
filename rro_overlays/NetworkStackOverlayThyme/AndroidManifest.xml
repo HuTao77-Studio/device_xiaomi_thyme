@@ -17,6 +17,7 @@
     <application android:hasCode="false" />
     <overlay
       android:targetPackage="com.android.networkstack"
+      android:targetName="NetworkStackConfig"
       android:isStatic="true"
       android:priority="0"/>
 </manifest>
