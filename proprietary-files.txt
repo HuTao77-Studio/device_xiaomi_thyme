@@ -183,9 +183,6 @@ vendor/lib64/libcamera_dirty.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcamerapostproc.so
-vendor/lib64/libcapiv2svacnn.so
-vendor/lib64/libcapiv2svarnn.so
-vendor/lib64/libcapiv2vop.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcvp_common.so
@@ -233,7 +230,6 @@ vendor/lib64/libst_soft_isp_shared.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
@@ -516,8 +512,6 @@ vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
 
 # CDSP
--vendor/lib/libfastcvopt.so
--vendor/lib64/libfastcvopt.so
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
 vendor/lib/libcdsp_default_listener.so
@@ -908,7 +902,6 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
-vendor/lib64/libspcom.so
 
 # Limits HAL
 -vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
@@ -961,7 +954,6 @@ vendor/lib/libI420colorconvert.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libmmosal.so
 vendor/lib/libMpeg4SwEncoder.so
-vendor/lib/libmulawdec.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
 vendor/lib/libOmxAlacDecSw.so
@@ -998,7 +990,6 @@ vendor/lib64/libI420colorconvert.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmmosal.so
 vendor/lib64/libMpeg4SwEncoder.so
-vendor/lib64/libmulawdec.so
 vendor/lib64/libOmxAacDec.so
 vendor/lib64/libOmxAlacDec.so
 vendor/lib64/libOmxAlacDecSw.so
@@ -1165,8 +1156,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 -vendor/app/IWlanService/IWlanService.apk
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 system_ext/etc/permissions/qcrilhook.xml
-system_ext/etc/permissions/qti_libpermissions.xml
-system_ext/etc/permissions/qti_permissions.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
@@ -1176,7 +1165,6 @@ vendor/bin/hw/qcrild
 vendor/bin/ks
 vendor/bin/mdm_helper
 vendor/bin/netmgrd
-vendor/bin/pd-mapper
 vendor/bin/port-bridge
 vendor/bin/qrtr-cfg
 vendor/bin/qrtr-lookup
@@ -1217,8 +1205,6 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqcrilFramework.so
-vendor/lib64/libqrtr.so
-vendor/lib64/libqsocket.so
 vendor/lib64/libril-qc-hal-qmi.so
 vendor/lib64/libril-qc-logger.so
 vendor/lib64/libril-qc-ltedirectdisc.so
@@ -1424,7 +1410,6 @@ vendor/etc/sensors/config/tcs3408.json
 vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/config/tsl2540.json
 vendor/etc/sensors/config/vl53l1_tof_0.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
@@ -1513,14 +1498,12 @@ vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 # Snapdragon Computer Vision Engine
 -vendor/lib/libfastcvopt.so
 -vendor/lib64/libfastcvopt.so
-vendor/lib/libfastcvdsp_stub.so
 vendor/lib/libscveCommon_stub.so
 vendor/lib/libscveCommon.so
 vendor/lib/libscveObjectSegmentation_stub.so
 vendor/lib/libscveObjectSegmentation.so
 vendor/lib/libscveObjectTracker_stub.so
 vendor/lib/libscveObjectTracker.so
-vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libscveCommon_stub.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libscveObjectSegmentation_stub.so
