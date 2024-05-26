@@ -1,2 +1,2 @@
-allow hal_lineage_powershare_default sysfs_wireless_supply:file rw_file_perms;
-allow hal_lineage_powershare_default sysfs_wireless_supply:dir { read search };
+allow hal_lineage_powershare_default sysfs_battery_supply:file rw_file_perms;
+allow hal_lineage_powershare_default sysfs_battery_supply:dir { read search };
