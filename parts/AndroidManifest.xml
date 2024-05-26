@@ -61,6 +61,7 @@
 
         <service
             android:name=".display.DcDimmingTileService"
+            android:enabled="false"
             android:exported="false"
             android:icon="@drawable/ic_dc_tile"
             android:label="@string/dc_dimming_enable_title"
