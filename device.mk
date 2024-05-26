@@ -363,6 +363,8 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
 
 # MIUI Camera
+$(call inherit-product, vendor/xiaomi/thyme-miuicamera/thyme-miuicamera-vendor.mk)
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/miuicamera-permissions.xml \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-miuicamera.xml
