@@ -10,7 +10,7 @@ ro.af.client_heap_size_kbyte=7168
 
 # MIUI Camera
 ro.product.mod_device=thyme_global
-vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev
+vendor.camera.aux.packagelist=com.android.camera
 persist.vendor.camera.privapp.list=com.android.camera
 ro.com.google.lens.oem_camera_package=com.android.camera
 ro.miui.notch=1
