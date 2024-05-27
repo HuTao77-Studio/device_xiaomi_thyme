@@ -49,6 +49,7 @@ allow miui_camera proc_stat:file rw_file_perms;
 dontaudit miui_camera default_prop:file read;
 
 binder_call(miui_camera, hal_camera_default);
+binder_call(miui_camera, system_server);
 binder_call(miui_camera, vendor_hal_perf_default);
 
 get_prop(miui_camera, vendor_camera_sensor_prop);
