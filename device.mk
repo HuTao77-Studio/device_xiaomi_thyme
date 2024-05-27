@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayThyme \
     NetworkStackOverlayThyme \
     SettingsOverlayThyme \
-    SettingsProviderOverlayRosemary \
+    SettingsProviderOverlayThyme \
     SystemUIOverlayThyme \
     TelephonyOverlayThyme
 

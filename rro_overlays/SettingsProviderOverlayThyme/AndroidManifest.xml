@@ -12,7 +12,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.providers.settings.rosemary">
+    package="com.android.providers.settings.thyme">
 
   <application android:hasCode="false"/>
   <overlay android:targetPackage="com.android.providers.settings"
