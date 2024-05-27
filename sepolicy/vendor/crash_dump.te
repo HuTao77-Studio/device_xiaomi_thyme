@@ -2,3 +2,4 @@ allow crash_dump app_data_file:file { getattr map read };
 dontaudit crash_dump app_data_file:file open;
 
 allow crash_dump resourcecache_data_file:file { getattr map open read };
+allow crash_dump selinuxfs:file read;
