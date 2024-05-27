@@ -16,3 +16,7 @@ ro.com.google.lens.oem_camera_package=com.android.camera
 ro.miui.notch=1
 ro.hardware.camera=xiaomi
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
+# MIUI Version
+ro.miui.ui.version.code=816
+ro.miui.ui.version.name=V816
