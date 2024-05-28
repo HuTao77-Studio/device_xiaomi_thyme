@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/thyme/device.mk)
 # Inherit some common Crdroid stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Device flags
+WITH_GMS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_thyme
 PRODUCT_DEVICE := thyme
